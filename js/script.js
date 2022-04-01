@@ -17,7 +17,7 @@ addInput.addEventListener('keypress', (e) => {
 
 const addNewItem = () => {
     if (addInput.value.trim() === '') {
-        alert('Please Enter Item Name')
+        alert('Please Enter Desired List')
         addInput.value = ''
         return
     }
