@@ -6,14 +6,11 @@ body {
     background-image: url('../image/list.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-
-
-
 }
 
 
 .todo-title {
-    color: #23060c;
+    color: #8383dc;
     font-weight: bolder;
 
 }
