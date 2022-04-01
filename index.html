@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Add List</title>
+</head>
+<body>
+<section class="todo">
+    <div class="container">
+        <h1 class="text-center mt-5 todo-title">Simple To Do List</h1>
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control add-input" placeholder="Enter New Item">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-success add-btn" type="button">Add New Item</button>
+                    </div>
+                </div>
+                <ul class="list-group todo-list">
+                    <!-- only to see the result without javascript -->
+                    <li class="list-group-item d-flex justify-content-start  align-items-center gap-1">
+                        <button class="btn btn-danger btn-sm delete-btn">X</button><input type="checkbox" class="form-check-input"><span>item 1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-start  align-items-center gap-1">
+                        <button class="btn btn-danger btn-sm delete-btn">X</button><input type="checkbox" class="form-check-input"><span>item 2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-end align-items-center">
+                        <button class="btn btn-danger btn-sm delete-btn">Clear selected</button>
+                    </li>
+                    <!-- end  -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
